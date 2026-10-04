@@ -1,0 +1,5 @@
+- action: msg1
+- to: account1
+
+- action: msg2
+- to: account2
