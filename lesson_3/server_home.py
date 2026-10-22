@@ -23,7 +23,7 @@ while 1:
     print(request)
     send_message = json.dumps(response).encode('utf-8')
     client.sendall(send_message)
-    client.close()
+    # client.close()
 
 
 
