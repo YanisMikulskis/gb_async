@@ -26,7 +26,7 @@ print(f'2-------')
 
 data = {
   "action": "msg",
-  "time": 11111111,
+  "time_app": 11111111,
   "to": "account_name",
   "from": "account_name",
   "encoding": "ascii",
@@ -59,7 +59,7 @@ with open('new_json3.json') as new_f:
 number = 4
 data4 = {
   "action": "msg",
-  "time": 11111111,
+  "time_app": 11111111,
   "to": "account_name",
   "from": "account_name",
   "encoding": "ascii",
