@@ -9,7 +9,7 @@ s.connect(('localhost', 8000))
 
 msg = {
     'action': 'msg',
-    'time':time.time(),
+    'time_app':time.time(),
     'message':f'привет, домашний сервер'
 }
 msg = json.dumps(msg).encode('utf-8')

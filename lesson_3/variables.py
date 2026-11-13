@@ -1,8 +1,6 @@
 
-
-
 # порт по умолчанию для подключения
-DEFAULT_PORT = 8889
+DEFAULT_PORT = 8000
 # ip-адрес для подключения
 DEFAULT_IP_ADDRESS = '127.0.0.1'
 # Максимальная длина подключений
@@ -19,7 +17,6 @@ TIME = 'time'
 USER = 'user'
 ACCOUNT_NAME = 'account_name'
 MESSAGE = 'message'
-ALERT = 'alert'
 #прочие ключи
 RESPONSE = 'response'
 PRESENCE = 'presence'

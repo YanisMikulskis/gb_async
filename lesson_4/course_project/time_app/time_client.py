@@ -6,7 +6,7 @@ from variables import (DEFAULT_PORT,
                        DECODING, MAX_PACKAGE_LENGTH)
 
 sock = socket(AF_INET, SOCK_STREAM)
-sock.connect(('localhost', DEFAULT_PORT))
+sock.connect(('127.0.0.1', DEFAULT_PORT))
 # отправление сообщения серверу
 msg = {
     ACTION: 'msg',

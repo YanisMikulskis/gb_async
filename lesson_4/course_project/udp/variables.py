@@ -15,7 +15,7 @@ ENCODING, DECODING = 'utf-8', 'utf-8'
 
 #JIM протокол
 ACTION = 'action'
-TIME = 'time'
+TIME = 'time_app'
 USER = 'user'
 ACCOUNT_NAME = 'account_name'
 MESSAGE = 'message'
